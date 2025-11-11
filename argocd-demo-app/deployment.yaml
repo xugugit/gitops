@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: registry.cn-hangzhou.aliyuncs.com/google-containers/nginx-arm64:1.25-alpine
+        image: nginx-arm64:1.25-alpine
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
